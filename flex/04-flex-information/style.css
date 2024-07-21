@@ -7,10 +7,39 @@ img {
   height: 100px;
 }
 
+.whole {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin: 32px auto;
 }
+
+.items{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+
+}
+
+.item {
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  text-align: center;
+}
+
+img{
+  margin:auto;
+}
+
 
 /* do not edit this footer */
 .footer {
